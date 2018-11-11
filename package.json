@@ -1,0 +1,37 @@
+{
+  "name": "tigernodeandspace",
+  "version": "1.0.0",
+  "description": "tigernodeandspace server, but in!",
+  "main": "server.js",
+  "scripts": {
+    "server": "nodemon server.js",
+    "client": "npm start --prefix tigernodeandspace-client",
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "11.0.0",
+    "npm": "6.4.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/MrFabkirox/tigernodeandspace.git"
+  },
+  "keywords": [
+    "a",
+    "lot"
+  ],
+  "author": "Fabrice Esope",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrFabkirox/tigernodeandspace/issues"
+  },
+  "homepage": "https://github.com/MrFabkirox/tigernodeandspace#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "concurrently": "^4.0.1",
+    "express": "^4.16.4",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.6"
+  }
+}
