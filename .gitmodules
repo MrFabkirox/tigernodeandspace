@@ -1,6 +1,0 @@
-[submodule "tigernodeandspace-client"]
-	path = tigernodeandspace-client
-	url = git@github.com:MrFabkirox/tigernodeandspace-client.git
-[submodule "app/tigernodeandspace-client"]
-	path = app/tigernodeandspace-client
-	url = git@github.com:MrFabkirox/tigernodeandspace-client.git

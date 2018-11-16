@@ -8,8 +8,8 @@
     "clientprep": "npm i --prefix tigernodeandspace-client",
     "clientbuild": "npm run build --prefix tigernodeandspace-client",
     "client": "npm start --prefix tigernodeandspace-client",
-    "start": "concurrently \"npm run server\" \"npm run client\"",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js",
+    "test": "concurrently \"npm run server\" \"npm run client\""
   },
   "engines": {
     "node": "11.0.0",
